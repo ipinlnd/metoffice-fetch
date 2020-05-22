@@ -1,6 +1,6 @@
 # Met Office Fetch
 
-A simple package to fetch data from the (https://metoffice.apiconnect.ibmcloud.com/metoffice/production/)[metoffice] API library.
+A simple package to fetch data from the [metoffice](https://metoffice.apiconnect.ibmcloud.com/metoffice/production/) API library.
 
 # installation
 
