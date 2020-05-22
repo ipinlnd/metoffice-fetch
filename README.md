@@ -44,11 +44,11 @@ const fetchData = async (latitude: number, longitude: number) => {
 
 # References
 
-| Function                              | Return Type                | Description                   |
-| ------------------------------------- | -------------------------- | ----------------------------- |
-| FetchHourlyData(params, headers)      | Promise<MetOfficeResponse> | Fetches the hourly data       |
-| FetchThreeHourlyData(params, headers) | Promise<MetOfficeResponse> | Fetches the Three Hourly data |
-| FecthDailyData(params, headers)       | Promise<MetOfficeResponse> | Fetches the Daily Data        |
+| Function                              | Return Type                        | Description                   |
+| ------------------------------------- | ---------------------------------- | ----------------------------- |
+| FetchHourlyData(params, headers)      | Promise&#60;MetOfficeResponse&#60; | Fetches the hourly data       |
+| FetchThreeHourlyData(params, headers) | Promise&#60;MetOfficeResponse&#60; | Fetches the Three Hourly data |
+| FecthDailyData(params, headers)       | Promise&#60;MetOfficeResponse&#60; | Fetches the Daily Data        |
 
 The inputs param for all these functions are the same:
 
@@ -59,10 +59,10 @@ params: {
     latitude: number;
     longitude: number;
   },
-  headers: {
-    clientId: string;
-    clientSecret: string;
-  }
+headers: {
+  clientId: string;
+  clientSecret: string;
+}
 ```
 
 # Authors
