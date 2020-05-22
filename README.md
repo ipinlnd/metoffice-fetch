@@ -48,7 +48,7 @@ const fetchData = async (latitude: number, longitude: number) => {
 | ------------------------------------- | ---------------------------------- | ----------------------------- |
 | FetchHourlyData(params, headers)      | Promise&#60;MetOfficeResponse&#62; | Fetches the hourly data       |
 | FetchThreeHourlyData(params, headers) | Promise&#60;MetOfficeResponse&#62; | Fetches the Three Hourly data |
-| FecthDailyData(params, headers)       | Promise&#60;MetOfficeResponse&#62; | Fetches the Daily Data        |
+| FetchDailyData(params, headers)       | Promise&#60;MetOfficeResponse&#62; | Fetches the Daily Data        |
 
 The inputs param for all these functions are the same:
 
