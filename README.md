@@ -1,6 +1,6 @@
 # Met Office Fetch
 
-A simple package to fetch data from the [metoffice](https://metoffice.apiconnect.ibmcloud.com/metoffice/production/) API library.
+A simple package to fetch data from the [uk met office](https://metoffice.apiconnect.ibmcloud.com/metoffice/production/) API library.
 
 # installation
 
@@ -46,9 +46,9 @@ const fetchData = async (latitude: number, longitude: number) => {
 
 | Function                              | Return Type                        | Description                   |
 | ------------------------------------- | ---------------------------------- | ----------------------------- |
-| FetchHourlyData(params, headers)      | Promise&#60;MetOfficeResponse&#60; | Fetches the hourly data       |
-| FetchThreeHourlyData(params, headers) | Promise&#60;MetOfficeResponse&#60; | Fetches the Three Hourly data |
-| FecthDailyData(params, headers)       | Promise&#60;MetOfficeResponse&#60; | Fetches the Daily Data        |
+| FetchHourlyData(params, headers)      | Promise&#60;MetOfficeResponse&#62; | Fetches the hourly data       |
+| FetchThreeHourlyData(params, headers) | Promise&#60;MetOfficeResponse&#62; | Fetches the Three Hourly data |
+| FecthDailyData(params, headers)       | Promise&#60;MetOfficeResponse&#62; | Fetches the Daily Data        |
 
 The inputs param for all these functions are the same:
 
