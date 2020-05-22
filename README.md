@@ -44,17 +44,16 @@ const fetchData = async (latitude: number, longitude: number) => {
 
 # References
 
-| Function               | Return Type                | Description                   |
-| ---------------------- | -------------------------- | ----------------------------- |
-| FetchHourlyData()      | Promise<MetOfficeResponse> | Fetches the hourly data       |
-| FetchThreeHourlyData() | Promise<MetOfficeResponse> | Fetches the Three Hourly data |
-| FecthDailyData()       | Promise<MetOfficeResponse> | Fetches the Daily Data        |
+| Function                              | Return Type                | Description                   |
+| ------------------------------------- | -------------------------- | ----------------------------- |
+| FetchHourlyData(params, headers)      | Promise<MetOfficeResponse> | Fetches the hourly data       |
+| FetchThreeHourlyData(params, headers) | Promise<MetOfficeResponse> | Fetches the Three Hourly data |
+| FecthDailyData(params, headers)       | Promise<MetOfficeResponse> | Fetches the Daily Data        |
 
 The inputs param for all these functions are the same:
 
 ```js
-{
-  params: {
+params: {
     excludeParameterMetadata?: boolean;
     includeLocationName?: boolean;
     latitude: number;
@@ -64,7 +63,6 @@ The inputs param for all these functions are the same:
     clientId: string;
     clientSecret: string;
   }
-}
 ```
 
 # Authors
